@@ -1,0 +1,26 @@
+{
+  "name": "graphQL-express",
+  "version": "1.0.0",
+  "description": "Integrando GraphQL com NodeJS (Expreess)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Faelst/graphQL-express.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Faelst/graphQL-express/issues"
+  },
+  "homepage": "https://github.com/Faelst/graphQL-express",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.11.0",
+    "graphql": "^15.3.0"
+  }
+}
